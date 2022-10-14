@@ -1,0 +1,97 @@
+.pd-20 {
+    padding: 20px;
+}
+
+.pdtop-20 {
+   padding-top: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} 
+.center {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.colomn {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.grid {
+    display: grid;
+}
+.pt-5, .py-5 {
+    padding-top: 3rem!important;
+}
+.pb-3, .py-3 {
+    padding-bottom: 1rem!important;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 3rem!important;
+}
+
+.text-primary {
+    color: #f60!important;
+}
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+.font-weight-medium, h5, h6 {
+    font-weight: 500!important;
+}
+.h5, h5 {
+    font-size: 1.25rem;
+}
+
+.text-center {
+    text-align: center!important;
+}
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+.mb-2, .my-2 {
+    margin-bottom: 0.5rem!important;
+}
+.overflow-hidden {
+    overflow: hidden!important;
+}
+.rounded {
+    border-radius: 8px!important;
+}
+.position-relative {
+    position: relative!important;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.p-4 {
+    padding: 1.5rem!important;
+}
+.bg-secondary {
+    background-color: #f2f1f8!important;
+}
+
+.m-0 {
+    margin: 0!important;
+}
+.ml-1, .mx-1 {
+    margin-left: 0.25rem!important;
+}
+.mr-1, .mx-1 {
+    margin-right: 0.25rem!important;
+}
