@@ -755,6 +755,8 @@ text-align: center;
     background-color: #373549;
    }
     /* End Get Courses  */
+    /* Start  Lectureres */
+    
     .lecturers {
       margin-top: 50px;
     }
@@ -762,22 +764,47 @@ text-align: center;
       border-bottom: 1px solid #eee;
     }
     .lecturers .container .row {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(213px, 6fr));
-      grid-gap: 30px;
-      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
     }
-    .img-fluid {
-      width: 100%;
-      max-height: 252px;
+    /* Small */
+    @media (max-width: 768px) {
+      .lecturers .container .row {
+        width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+      }
+    }
+    /* Medium */
+    @media (min-width: 992px) {
+      .team {
+        transition: .5s;
+        width: 46%;
+        flex: 0 0 46%;
+      }
+    }
+     /* Large  */
+    @media (min-width: 1200px) {
+      .team {
+        transition: .5s;
+        width: 23%;
+        flex: 0 0 23%;
+
+      }
+    }
+    .lecturers .container .row .img-fluid {
+      max-height: 266px;
       transition: .5s;
       /* background-color: white; */
     }
 
 
-  .team {
+    .team {
     transition: .5s;
-  }
+    width: 100%;
+    }
   
     .team-img .team-social {
 
@@ -795,21 +822,21 @@ text-align: center;
  
 
       
-  }
-  .team:hover  .team-social{
+   }
+   .team:hover  .team-social{
      
-    opacity: 100%;
-  }
-  .btn-square {
-    border-radius: 6px;
-  }
+     opacity: 100%;
+   }
+   .btn-square {
+     border-radius: 6px;
+   }
 
   .btn-outline-light {
     border: 1px solid white;
   
 
-  }
-  .btn {
+   }
+   .btn {
     padding: 8px;
     color: white;
     transition: .5s;
@@ -817,11 +844,11 @@ text-align: center;
     align-items: center;
     justify-content: center;
      
-  }
-  .btn:hover {
-    background-color: white;
-    color: rgba(68,66,90,.8);
-  }
+   }
+   .btn:hover {
+     background-color: white;
+     color: rgba(68,66,90,.8);
+   }
     /* End Lecturers  */
     /* Start Contact  */
     .contact {
