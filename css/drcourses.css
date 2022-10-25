@@ -404,6 +404,7 @@ header .menu nav .toggle-icon {
       color: white;
       padding: 0px 0px 2px 6px;
       border-left: 8px solid var(--main-color);
+      min-width: 231.5px;
   
   
 
