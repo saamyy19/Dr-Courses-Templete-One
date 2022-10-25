@@ -1040,4 +1040,18 @@ text-align: center;
   footer .container .colmnnz .row button:hover{
     background-color: rgba(255, 102, 0, 0.788);
   }
+ footer .copyright {
+     padding: 5px 0;
+     margin: auto;
+  }
+ footer .copyright .text {
+     font-weight: bold;
+     font-size: 23px;
+}
+footer .copyright .text i {
+    color: var(--main-color);
+}
+footer .copyright .text span {
+    color: var(--main-color);
+}
     /* End Footer  */
