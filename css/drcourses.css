@@ -90,6 +90,7 @@
   }
   .header h5 {
     font-weight: 600!important;
+    min-width: 106px;
   }
   .header .container .logo {
     display: flex;
@@ -123,7 +124,7 @@
   }
   .header .container .text-left {
     display: flex;
-    margin-left: 37px;
+    margin-left: 31px;
     align-items: center;
 
   }
@@ -499,7 +500,9 @@ header .menu nav .toggle-icon {
  /* End About  */
  /* Start Subjects  */
  .sub {
-  padding-top: 78px;
+    margin: 122px 0 0;
+    background-color: #eee;
+    padding-bottom: 114px;
  }
  .sub .container {
   align-items: center;
@@ -662,45 +665,23 @@ transition: .1s
    .getcourses {
     background-image: url(../images/reg.jpg);
     background-size: cover;
-    min-height: 527px;
     margin-bottom: 126px;
     background-color: rebeccapurple;
     /* padding: 78px 0; */
     /* opacity: 90%; */
    }
    .getcourses .container {
-  
-padding-top: 31px;
-  
-height: auto;
-  
-z-index: 99;
-  
-/* width: calc(100% - 40px ); */
-  
-display: flex;
-  
-/* flex-wrap: wrap; */
-  
-justify-content: space-between;
-  
-flex-direction: column;
-  
-/* justify-items: center; */
-  
-align-items: center;
-  
-/* align-content: center; */
-  
-text-align: center;
-}
+       height: 500px;
+       z-index: 99;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       align-items: center;
+    }
    .getcourses .container .text {
-    /* min-width: 291px; */
+    max-width: 50%;
     color: white;
-    /* z-index: 2; */
-    padding: 15px;
-    background-color: rgb(0 0 0 / 28%);
-    border-radius: 20px;
+    z-index: 2;
    }
    .getcourses .container .text h5 {
     font-size: 20px;
@@ -711,15 +692,12 @@ text-align: center;
     margin-top: 0;
    }
    .getcourses .container .form {
-    background-color: var(--main-color);
-    border-radius: 11px;
-    overflow: hidden;
-    min-height: 304px;
-    margin: 29px 0;
-    /* z-index: 3; */
-    /* min-width: 209px; */
-    TEXT-ALIGN: CENTER;
-    width: 70%;
+        background-color: var(--main-color);
+        border-radius: 11px;
+        overflow: hidden;
+        height: 300px;
+        TEXT-ALIGN: CENTER;
+        width: 40%;
    }
    .getcourses .container .form .signup h1 {
     margin: 0;
@@ -755,6 +733,20 @@ text-align: center;
    .getcourses .container .form button:hover {
     background-color: #373549;
    }
+   
+  @media (max-width: 830px) {
+      .getcourses .container {
+       
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          gap: 5px
+      }
+      .getcourses .container .form {
+          width : 60%
+          margin-top: 10px
+      }
+    }
     /* End Get Courses  */
     /* Start  Lectureres */
     
@@ -853,8 +845,9 @@ text-align: center;
     /* End Lecturers  */
     /* Start Contact  */
     .contact {
-      margin-top: 147px;
-      margin-bottom: 171px;
+           margin: 122px 0 196px;
+           background-color: #eee;
+           padding-bottom: 41px;
     }
     
     .contact .container {
@@ -871,7 +864,7 @@ text-align: center;
     margin-bottom: 58px;
     }
     .contact .container .form {
-      background-color: #eee;
+      background-color: white;
       width: 70%;
       border-radius: 8px;
       margin-top: 27px;
@@ -887,6 +880,7 @@ text-align: center;
     height: 47px;
     /* color: var(--main-color); */
     border-radius: 8px;
+    border: 1px solid #eee;
 
     }
     .contact .container .form textarea {
@@ -896,6 +890,7 @@ text-align: center;
       padding: 10px;
       /* color: var(--main-color); */
       border-radius: 8px;
+      border: 1px solid #eee;
     }
     .contact .container .form .same {
       margin-bottom: 13px;
